@@ -5,7 +5,7 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite_name_:_Smoke_Test_in_Sahil_classes">
-                    <span>C:\Users\jbilhob\Desktop\Sahil Class\Earth\Suites\smoke.xml</span>
+                    <span>D:\sahil\gitworkspace\Earth\Suites\smoke.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -130,6 +130,7 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+<<<<<<< HEAD
                   <a name="testLogin">
                   </a> <!-- testLogin -->
                   <span class="method-name">testLogin</span>
@@ -167,6 +168,15 @@ Driver info: driver.version: ChromeDriver
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
 	at com.test.BaseTemplate.launchBrowser(BaseTemplate.java:39)
 ... Removed 32 stack frames
+=======
+                  <a name="testLogin2">
+                  </a> <!-- testLogin2 -->
+                  <span class="method-name">testLogin2</span>
+                  <div class="stack-trace">java.lang.AssertionError: Not Matched expected [true] but found [false]
+	at com.test.BaseTemplate.verifyTest(BaseTemplate.java:94)
+	at com.test.Login.testLogin2(Login.java:26)
+... Removed 27 stack frames
+>>>>>>> d1ef964e3a2eb063e770ceda55df434e786eb332
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -217,14 +227,14 @@ Driver info: driver.version: ChromeDriver
         </div> <!-- panel Suite_name_:_Smoke_Test_in_Sahil_classes -->
         <div panel-name="test-xml-Suite_name_:_Smoke_Test_in_Sahil_classes" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\jbilhob\Desktop\Sahil Class\Earth\Suites\smoke.xml</span>
+            <span class="header-content">D:\sahil\gitworkspace\Earth\Suites\smoke.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite name : Smoke Test in Sahil classes&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test Name : My TestNG practices&quot;&gt;
+  &lt;test name=&quot;Test Name : My TestNG practices&quot;&gt;
     &lt;parameter name=&quot;envName&quot; value=&quot;QA&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
@@ -272,16 +282,28 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLogin')
 data.setCell(0, 2, 'com.test.Login')
+<<<<<<< HEAD
 data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLogin2')
 data.setCell(1, 2, 'com.test.Login')
 data.setCell(1, 3, 0);
+=======
+data.setCell(0, 3, 243);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLogin2')
+data.setCell(1, 2, 'com.test.Login')
+data.setCell(1, 3, 135);
+>>>>>>> d1ef964e3a2eb063e770ceda55df434e786eb332
 window.suiteTableData['Suite_name_:_Smoke_Test_in_Sahil_classes']= { tableData: data, tableDiv: 'times-div-Suite_name_:_Smoke_Test_in_Sahil_classes'}
 return data;
 }
               </script>
+<<<<<<< HEAD
               <span class="suite-total-time">Total running time: 0 ms</span>
+=======
+              <span class="suite-total-time">Total running time: 378 ms</span>
+>>>>>>> d1ef964e3a2eb063e770ceda55df434e786eb332
               <div id="times-div-Suite_name_:_Smoke_Test_in_Sahil_classes">
               </div> <!-- times-div-Suite_name_:_Smoke_Test_in_Sahil_classes -->
             </div> <!-- times-div -->
@@ -316,7 +338,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">launchBrowser(chrome, QA, public void com.test.Login.testLogin())</span>
+<<<<<<< HEAD
                 <span class="method-start">219 ms</span>
+=======
+                <span class="method-start">176 ms</span>
+>>>>>>> d1ef964e3a2eb063e770ceda55df434e786eb332
               </div> <!-- configuration-method before -->
               <div class="configuration-suite after">
                 <span class="method-name">cleanTestMethods</span>
@@ -324,12 +350,38 @@ return data;
               </div> <!-- configuration-suite after -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
+<<<<<<< HEAD
                 <span class="method-start">-1540804706391 ms</span>
               </div> <!-- test-method -->
+=======
+                <span class="method-start">5865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">6109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome, QA, public void com.test.Login.testLogin2())</span>
+                <span class="method-start">8430 ms</span>
+              </div> <!-- configuration-method before -->
+>>>>>>> d1ef964e3a2eb063e770ceda55df434e786eb332
               <div class="test-method">
                 <span class="method-name">testLogin2</span>
+<<<<<<< HEAD
                 <span class="method-start">-1540804706391 ms</span>
               </div> <!-- test-method -->
+=======
+                <span class="method-start">13233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">13372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">cleanTestMethods</span>
+                <span class="method-start">15721 ms</span>
+              </div> <!-- configuration-suite after -->
+>>>>>>> d1ef964e3a2eb063e770ceda55df434e786eb332
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -9,6 +9,7 @@ public class LoginAction extends BaseTemplate{
 	public void testCorrectLogin(){
 		LoginLocators locators = new LoginLocators();		
 		enterText(locators.username,ReadJson.getJsonValue("$.AdminCredentials.username"));
+		
 	}
 
 }
