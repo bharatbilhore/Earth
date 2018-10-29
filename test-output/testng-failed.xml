@@ -8,6 +8,7 @@
       <class name="com.test.Login">
         <methods>
           <include name="cleanUp"/>
+          <include name="testLogin"/>
           <include name="initTestMethods"/>
           <include name="testLogin2"/>
           <include name="cleanTestMethods"/>

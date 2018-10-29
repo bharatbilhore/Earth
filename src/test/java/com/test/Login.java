@@ -23,7 +23,9 @@ public class Login extends BaseTemplate{
 		action.testCorrectLogin();
 		
 		//verifyTest(false, "User successfully entered");
-		verifyTest("sahil1","sahil","Not Matched");
+		//verifyTest("sahil1","sahil","Not Matched");
 	}
 
 }
+
+

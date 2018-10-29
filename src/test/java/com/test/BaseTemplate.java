@@ -95,6 +95,8 @@ public class BaseTemplate {
 	
 	public void enterText(WebElement webElement,String text){
 		try{
+			
+			Thread.sleep(5000);
 			webElement.sendKeys(text);
 		}catch(Exception e){			
 			e.printStackTrace();
@@ -104,15 +106,17 @@ public class BaseTemplate {
 	
 	public void enterText(String xpath,String text){
 		try{
+			Thread.sleep(5000);
 			driver.findElement(By.xpath(xpath)).sendKeys(text);
 		}catch(Exception e){			
 			e.printStackTrace();
 			verifyTest(false,"Webmeent not found");
 		}		
 	}
-	
+
 	public void enterText(By xpath,String text){
 		try{
+			Thread.sleep(5000);
 			driver.findElement(xpath).sendKeys(text);
 		}catch(Exception e){			
 			e.printStackTrace();
